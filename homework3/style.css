@@ -28,64 +28,6 @@ caption {
 	border-bottom: none;
 }
 
-.one {
-	border-right: none;
-}
-
-.two {
-	border-left: none;
-	border-right: none;
-}
-
-.three {
-	border-left: none;
-	border-right: none;
-}
-
-.four {
-	border-left: none;
-	border-right: none;
-}
-
-.five {
-	border-left: none;
-	border-right: none;
-}
-
-.six {
-	border-left: none;
-	border-right: none;
-}
-
-.one-2 {
-	border-right: none;
-	border-left: none;
-}
-
-.two-2 {
-	border-left: none;
-	border-right: none;
-}
-
-.three-2 {
-	border-left: none;
-	border-right: none;
-}
-
-.four-2 {
-	border-left: none;
-	border-right: none;
-}
-
-.five-2 {
-	border-left: none;
-	border-right: none;
-}
-
-.six-2 {
-	border-left: none;
-}
-
 .color {
 	color: #ff0000;
 }
