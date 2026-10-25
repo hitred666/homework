@@ -132,6 +132,16 @@ summary:focus-visible {
 		max-width: 576px;
 	}
 
+	.title-large {
+		font-size: 40px;
+		margin-bottom: 30px;
+	}
+
+	.home-page .title-large {
+		text-align: center;
+		max-width: inherit;
+	}
+
 	.title-medium {
 		font-size: 20px;
 	}
@@ -143,7 +153,7 @@ summary:focus-visible {
 	}
 
 	.title-large {
-		font-size: 34px;
+		font-size: 32px;
 	}
 
 	.title-medium {

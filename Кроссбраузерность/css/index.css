@@ -22,6 +22,10 @@
 	display: flex;
 }
 
+.hero-img img {
+	width: 50%;
+}
+
 .hero h1 {
 	margin-bottom: 40px;
 	font-family: "Oswald", sans-serif;
@@ -162,9 +166,10 @@
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-align: start;
-	    -ms-flex-align: start;
-	        align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
 	gap: 28px;
+}
 
 details {
 	margin-bottom: 20px;
@@ -221,24 +226,36 @@ details > p {
 	}
 }
 
-@media (width <=992px) {
+@media (width <= 992px) {
 	.hero-container {
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-ms-flex-direction: column;
 		flex-direction: column;
+		align-items: center;
 	}
+
 	.hero::after {
 		display: none;
 	}
+
 	.hero-info {
 		text-align: center;
-		max-width: inherit;
+	}
+
+	.hero .hero-info h1 {
+		margin-bottom: 30px;
+		font-size: 52px;
 	}
 
 	.hero-info .text {
 		max-width: inherit;
+		padding: 0;
 		margin-bottom: 30px;
+	}
+
+	.decor::before {
+		display: none;
 	}
 
 	.news-container {
@@ -273,26 +290,11 @@ details > p {
 		-ms-flex-align: center;
 		align-items: center;
 	}
-
-	.hero h1 {
-		margin-bottom: 30px;
-		font-size: 52px;
-	}
 }
 
 @media (width <= 768px) {
 	.hero h1 {
-		font-size: 46px;
-	}
-
-	.title-large {
-		font-size: 42px;
-		margin-bottom: 30px;
-	}
-
-	.home-page .title-large {
-		text-align: center;
-		max-width: inherit;
+		font-size: 50px;
 	}
 
 	.news-article {
@@ -311,12 +313,12 @@ details > p {
 		max-width: 410px;
 	}
 
-	.hero h1 {
+	.hero .hero-info h1 {
 		font-size: 42px;
 	}
 
 	.hero {
-		padding-top: 60px;
+		margin-top: 60px;
 	}
 
 	.hero-choose {
