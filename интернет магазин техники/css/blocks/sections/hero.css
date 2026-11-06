@@ -1,0 +1,106 @@
+.hero__container {
+	position: relative;
+	width: 1294px;
+	height: 550px;
+	background-color: #dce5e2;
+	border-radius: 20px;
+}
+
+.hero__title {
+	position: absolute;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 58px;
+	line-height: 69, 6px;
+	letter-spacing: 0;
+	width: 588px;
+	top: 145px;
+	left: 56px;
+}
+
+.hero__text {
+	position: absolute;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19, 2px;
+	letter-spacing: 0;
+	width: 565px;
+	top: 304px;
+	left: 56px;
+}
+
+.hero__arrow-left {
+	position: absolute;
+	left: 19px;
+	top: 263px;
+	cursor: pointer;
+}
+
+.hero__arrow-right {
+	position: absolute;
+	right: 19px;
+	top: 263px;
+	cursor: pointer;
+}
+
+.hero__img {
+	position: absolute;
+	left: 647px;
+	bottom: 0;
+}
+
+.hero__button {
+	position: absolute;
+	top: 373px;
+	left: 56px;
+	border: 1px solid #000;
+	border-radius: 35px;
+	padding: 14px 53px;
+	font-weight: 400s;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 21, 6px;
+	letter-spacing: 0;
+	transition:
+		background-color 0.2s,
+		opacity 0.2s;
+}
+
+.hero__button:hover {
+	background-color: #8a918f;
+}
+
+.hero__button:active {
+	opacity: 0.5;
+}
+
+.border-1 {
+	border: 2px solid #000;
+	background-color: #000;
+	position: absolute;
+	bottom: 34px;
+	left: 322px;
+	width: 194px;
+	height: 2px;
+}
+
+.border-2 {
+	border: 2px solid #000;
+	background-color: #000;
+	position: absolute;
+	bottom: 34px;
+	left: 550px;
+	width: 194px;
+	height: 2px;
+}
+
+.border-3 {
+	border: 2px solid #000;
+	background-color: #000;
+	position: absolute;
+	bottom: 34px;
+	left: 778px;
+	width: 194px;
+	height: 2px;
+}
