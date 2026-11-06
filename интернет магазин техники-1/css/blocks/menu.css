@@ -1,0 +1,26 @@
+.header__menu {
+	display: flex;
+	position: relative;
+	right: 5%;
+}
+
+.header__menu-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 45px;
+}
+
+.header__menu-item {
+	display: inline-block;
+}
+
+.header__menu-item:nth-child(2)::after {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 7px;
+	margin-left: 3px;
+	cursor: pointer;
+	background: url(../../images/arrow-down.svg);
+}

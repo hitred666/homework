@@ -1,0 +1,31 @@
+.page {
+	font-family: var(--font-family);
+	font-weight: 400;
+}
+
+.page__body {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+	color: var(--main-text-color);
+}
+
+a {
+	color: var(--main-text-color);
+}
+
+.title__md {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 42px;
+	line-height: 52.5px;
+	letter-spacing: 0;
+	text-transform: uppercase;
+}
+
+.text__description {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 16.8px;
+	letter-spacing: 0;
+}
